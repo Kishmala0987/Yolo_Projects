@@ -7,7 +7,6 @@ The system detects cars in a video stream, assigns unique IDs, and counts them w
 
 <img width="1340" height="889" alt="image" src="https://github.com/user-attachments/assets/152c2d9d-3fe0-4aa8-bc34-f393db259001" />
 
-
 ## 📌 Overview
 
 This project combines:
@@ -40,21 +39,6 @@ It ensures **accurate counting**, even when vehicles move fast or overlap.
 8. Count only if ID not counted before
 
 ---
-
-## 📍 Counting Logic
-
-Vehicle is counted when:
-
-```
-center point ∈ defined region
-AND
-ID not counted before
-```
-
-This avoids multiple counts for the same vehicle.
-
----
-
 
 ## 🚀 Future Improvements
 
